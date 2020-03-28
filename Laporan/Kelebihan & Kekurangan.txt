@@ -1,0 +1,12 @@
+~Kelebihan:
+1. Bisa mencetak data
+2. Tampilan cukup menarik dan seragam
+3. Data dinamis
+~Kekurangan:
+1. Belum ada form login dan logout
+2. Belum bisa mencetak gambar
+3. Penanggungjawab di bagian cetak masih menempel dengan data
+4. Tidak ada validasi gambar
+5. Belum responsive (tampilan bagus di chrome)
+6. Tidak ada jquery back to top
+7. Sisi user masih belum fix

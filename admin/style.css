@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:#FCFCFC;
+	background	: url(icon/bg.png);}
+
+#Header{background:#f4f4f4;
+        height:60px;
+        width:100%;
+        position:fixed;
+		top:0;
+		left:0;
+        z-index:9999;
+        border-bottom:3px solid #CCC
+		}
+
+#Header ul{margin:0 auto;
+           list-style-type:none;
+           height:35px;
+           margin-right:90px;
+           margin-left:100px;}
+
+#Header ul li{margin-top:10px;}
+
+#Header ul li a{position:relative; 
+                float:right;
+                border:0.5px solid;
+                padding:12px 10px 18.5px;
+                color:#606060;
+                font-size:14px;
+                display:block;
+                text-decoration:none;
+                font-weight:700;
+                font-family:Geneva,Arial,Helvetica,sans-serif;}
+
+#Header ul li a:hover{color:#09F; 
+                      border-bottom:3px solid #09F;}
+
+form{width:500px;}
+
+#home{ padding-right:10px;}
+
+.search{padding:8.5px 15px;
+        background:#FFF;
+        border:0px solid ;
+	    width:350px;
+		}
+		
+.button{position:relative;
+        padding:8px 15px;
+        left:-18px;
+        border:0px solid;
+        background-color:#09F;
+        color:#fafafa;}
+
+.option{position:relative;
+        padding:8.5px 15px;
+        left:-10px;
+        border:0px solid;
+        background-color:#09F;
+        color:#fafafa;}
+
+.button:hover{color:#FFF;}
+
+.tabel{margin-left:500px;}
+
+table{border-radius:2px;}
+tr{border-radius:20px}
+
+
+
+/*barang*/
+#container{padding-top:100px;
+position:relative;
+min-height:100%;
+}
+
+#footer{
+	bottom:0;
+    height:30px;
+    line-height:30px;
+    background:#333;
+    color:#fff;
+	width:100%;
+	}
+
+#content{
+    padding:10px;
+}
+
+html,body{
+    height:100%;
+}
+
+.barang{margin-left:100px;}
+.barang li{display:inline-block; padding:5px;}
+
+.penjualan{margin-left:180px;}
+.penjualan li{display:inline-block; padding:5px;}
+
+.pesanan{margin-left:110px;}
+.pesanan li{display:inline-block; padding:5px;}
+
+.pelanggan{margin-left:375px;}
+.pelanggan li{display:inline-block; padding:5px;}
+
+.karyawan{margin-left:345px;}
+.karyawan li{display:inline-block; padding:5px;}
+
+.pemasok{margin-left:370px;}
+.pemasok li{display:inline-block; padding:5px;}
+
+#container a:hover{transition: all 0.3s;
+                 -o-transition: all 0.3s;
+                 -moz-transition: all 0.3s;
+                 -webkit-transition: all 0.3s;
+                  transform: scale(1.5);
+                 -moz-transform: scale(1.5);
+                 -o-transform: scale(1.5);
+                 -webkit-transform: scale(1.5);}
+ 
+.judul{text-align:center; 
+       background-color:#00FFFF;}
+ 
+.data:nth-child(odd) td{background-color:#fff;}
+ 
+.data:nth-child(even) td{background-color:#f7f7f7;}
+  
+.data:hover td{background-color:#e3f2f7;}
+
+/*user*/
+#daftar-produk:hover{border:#E55B36 solid 2px;}
+
+#daftar-produk{display:inline-table;
+		       width:170px;
+		       min-height:255px;
+		       text-align:left;
+		       background:white;
+		       margin:5px auto;
+		       padding:10px;
+	           border:solid #f4f4f4 2px;
+		       border-radius:5px;}
+			   
+#daftar-produk .beli:hover{color:#87D25F; 
+                           background-color:#FFF; 
+						   border:solid #87D25F 1px; 
+						   border-radius:4px;}
+	
+#daftar-produk .beli{background:#87D25F;
+	                 border:0;
+	                 cursor:pointer;
+	                 width:80px;
+	                 border-radius:4px;
+	                 height:25px;
+	                 color:#fff;
+	                 font-weight:bold;}
+		
+#daftar-produk .info:hover{color:#D1225B; 
+                           background-color:#FFF;  
+                           border:solid #D1225B 1px; 
+                           border-radius:4px;}
+		
+#daftar-produk .info{background:#D1225B;
+	                 border:0;
+	                 cursor:pointer;
+	                 width:80px;
+	                 border-radius:4px;
+	                 height:25px;
+	                 color:#fff;
+	                 font-weight:bold;}
+					 
+#tombol{position:relative; top:0; right:0; left:0; bottom:0;}
+		
+#daftar-produk .harga{cursor:pointer;
+	                  color:#E55B36;
+	                  width:100%;
+	                  padding:3px;
+	                  margin:3px;
+	                  float:right;
+	                  text-align:right;
+	                  border-radius:3px;}
+	
+
+					 
+#daftar-produk .gambar{width:150px;}
+
+.nama-produk{color:#3697DB;}
+
+/*slider*/
+.container{margin-top:60px;}
+
+#beranda{ margin	: 30px;
+	      width	: 1000px;
+	      float	: left; 
+		  background-color:#FCFCFC;
+		  margin-right:0px;
+		  padding-right:0px;
+		  }
+		  
+#menukanan{ margin	: 30px;
+	      width	: 259px;
+	      float	: left; 
+		  background-color:#FCFCFC;}
+		  
+#beranda-pencarian{margin	: 30px;
+	      width	: 1000px;
+	      float	: left; 
+		  background-color:#FCFCFC;
+		  margin-right:0px;
+		  padding-right:0px;}
+		  
+#beranda-pencarian h3{margin-top:40px; background-color:#F5F3F4; border-radius:5px; color:#1FBC9D;}
+
+#aksesoris{ padding-left:10px;}
+
+#aksesoris h3{margin-top:40px; background-color:#F5F3F4; border-radius:5px; color:#1FBC9D;}
+
+#login{
+	background-color:#CCC;
+	position:fixed;
+	margin-left:500px;
+	margin-top:100px;
+}
+

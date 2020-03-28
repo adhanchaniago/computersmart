@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(.*).jsp$ $1.php [L]
